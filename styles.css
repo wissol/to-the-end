@@ -1,12 +1,10 @@
-@import 'https://fonts.googleapis.com/css?family=Indie+Flower'; 
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
 
 html{background:#F8F3ED}
 
 body{
-  font-family: 'Josefin Slab', 'Bree Serif', 'Indie Flower', sans-serif; 
+  font-family: 'Josefin Slab', 'Bree Serif', serif; 
   font-size:1.4rem;
   line-height:1.5;
   margin:10vw auto;
