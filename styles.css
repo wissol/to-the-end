@@ -1,47 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
-
-html{background: url('cheap_diagonal_fabric.png') #F8F3ED}
+html { background: url('cheap_diagonal_fabric.png') #F8F3ED}
 
 body{
-  font-family: 'Josefin Slab', 'Bree Serif', serif; 
+  font-family: 'Josefin Slab', serif; 
   font-size:1.4rem;
   line-height:1.5;
   margin:10vw auto;
   max-width:750px
 }
   
- article{
-  margin-top:3vw;
-  }
+article {margin-top:3vw;}
 
- p + p
-  {text-indent:1em}
+p + p   {text-indent:1em}
   
- p {margin:0}
+p {margin:0}
+
+header {margin-bottom:1em}
   
-  header{margin-bottom:1em}
-  
-  figure{
+figure{
     border-left:10px solid #ccc;
     margin:1.5em 10px;  
     padding:0.5em;  
     quotes:"\201C""\201D""\2018""\2019"
     }
   
-  figcaption
-  {margin-left:40px;font-size:0.8em}
+figcaption {
+  margin-left:40px;
+  font-size:0.8em
+}
   
-  figcaption:before{content:"\2014";padding:0 0.5em;margin-right:0.25em;color:#ccc;font-size:1.3em}
-  
-  blockquote:before{color:#ccc;content:open-quote;font-size:4em;line-height:0.1em;margin-right:0.25em;vertical-align:-0.4em}
-  
-  blockquote p{display:inline}.haiku{font-size:1.5em;border-left:none}
-  
-  .abstract{margin:1.5em auto;width:75%;text-align:justify}
-  
-  .abstract:before{content:'Abstract';display:block;margin-bottom:.5em;text-align:center;font-weight:700}
-  
-  .tags{font-variant:small-caps}.tags:before{content:"\2014";padding:0 0.5em}.lists{border-left:none;}
-  
-  .back-to-index{margin-top: 1em; text-align: right; font-size:1.3rem}
+figcaption:before {
+  content:"\2014";
+  padding:0 0.5em;
+  margin-right:0.25em;
+  color:#ccc;
+  font-size:1.3em
+}  
+   
