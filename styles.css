@@ -1,9 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Indie+Flower'; 
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 html{background:#F8F3ED}
 
 body{
-  font-family:'Indie Flower', sans-serif; 
+  font-family: 'Bree Serif', 'Indie Flower', sans-serif; 
   font-size:1.4rem;
   line-height:1.5;
   margin:10vw auto;
